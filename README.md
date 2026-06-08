@@ -15,7 +15,7 @@ paragraphs, byte length.
 →
 
 ```json
-{ "lines": 3, "words": 5, "chars": 33, "code_points": 31, "paragraphs": 2, "bytes": 36 }
+{ "lines": 3, "words": 5, "chars": 34, "code_points": 33, "paragraphs": 2, "bytes": 36 }
 ```
 
 ## Configure

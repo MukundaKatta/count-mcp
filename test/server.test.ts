@@ -31,3 +31,13 @@ test('words counts non-whitespace runs', () => {
 test('trailing newline does not add empty paragraph', () => {
   assert.equal(count('hello\n').paragraphs, 1);
 });
+test('README example matches documented output', () => {
+  assert.deepEqual(count('Hello world.\n\nSecond paragraph 🌍.'), {
+    lines: 3,
+    words: 5,
+    chars: 34,
+    code_points: 33,
+    paragraphs: 2,
+    bytes: 36,
+  });
+});

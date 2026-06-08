@@ -6,7 +6,7 @@ import {
   ListToolsRequestSchema,
 } from '@modelcontextprotocol/sdk/types.js';
 
-const VERSION = '0.1.0';
+const VERSION = '0.1.1';
 
 export interface Counts {
   lines: number;
